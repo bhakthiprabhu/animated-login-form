@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SingUp</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Anime css -->
+    <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="content">
+            <!-- login Start -->
+            <div class="front">
+                <div class="fcontainer">
+                    <p class="signup-switch" id="signUp">Sign Up</p><br><br>
+                    <form id="login-form" action="">
+                        <i class="fa fa-user" aria-hidden="true"></i><input class="lemail" type="email"
+                            placeholder="Username"><br><br>
+                        <i class="fa fa-lock" aria-hidden="true"></i><input class="lpass" type="password"
+                            placeholder="Password"><br><br><br>
+                        <button type="button">Login</button><br>
+                        <p class="forgot">Forgot Password</p>
+                    </form>
+                </div>
+                <div class="dcontainer">
+                    <p>Sign in with</p>
+                    <div class="icon">
+                        <div class="ico"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                        <div class="ico"><i class="fa fa-google" aria-hidden="true"></i></div>
+                        <div class="ico"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Login end -->
+
+
+
+
+            <!-- Sign up start -->
+            <div class="back">
+                <div class="scontainer">
+                    <p class="signup-switch" id="login">Login</p>
+                    <form id="singup-form" action="">
+                        <input class="kemail" type="text" placeholder="First Name">
+                        <input class="kemail" type="text" placeholder="Last Name">
+                        <input class="kemail" type="email" placeholder="E-mail">
+                        <input class="kemail" type="text" placeholder="Mobile No.">
+                        <input class="kemail" type="password" placeholder="Password">
+                        <input class="kemail" type="password" placeholder="Re-Password">
+                    </form>
+                    <form action="" id="login-form">
+                        <button type="button">SingUp</button>
+                    </form>
+                </div>
+                <div class="dcontainer">
+                    <p>Sign in with</p>
+
+                    <div class="icon">
+                        <div class="ico"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                        <div class="ico"><i class="fa fa-google" aria-hidden="true"></i></div>
+                        <div class="ico"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Signup end -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
